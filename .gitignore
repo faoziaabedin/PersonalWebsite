@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.DS_Store
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Testing
+/coverage
+
