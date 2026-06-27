@@ -71,6 +71,18 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
+    period: 'May 2026 - Present',
+    role: 'Software Engineering Intern',
+    company: 'Toronto Dominion Bank',
+    location: 'Toronto, Ontario',
+    color: '#22c55e',
+    achievements: [
+      'Built a QA reconciliation framework for 1000+ PingAM authentication journeys that tracked coverage gaps, caught duplicate classifications, and flagged missing analyses, giving the team full traceability across QA outputs',
+      'Wrote a Postman Collection Generator that parses PingAM authentication graphs and produces ready-to-run API test workflows, handling sub-journeys, callbacks, and script-generated callbacks, replacing manual collection and environment setup with an automated pipeline',
+      'Added node classification and edge-case handling to a Journey Translator agent by analyzing script-level behavior across authentication graph types, improving validation accuracy by 30% across complex multi-branch login flows'
+    ]
+  },
+  {
     period: 'Sept 2025 - Present',
     role: 'Director of Mentorship & Projects',
     company: 'Women+ in Tech Society',
@@ -430,7 +442,7 @@ function App() {
 
               <AnimatedText delay={200}>
                 <p className="text-xl mb-8 leading-relaxed" style={{ color: '#9a9a9a' }}>
-                  Software developer and aspiring PM with a love for building products that actually matter. Pursuing a <span style={{ color: '#faf7f2' }}>BS Honours Specialization in Computer Science</span> at Western University.
+                  Creative software developer interested in AI/ML and building products with real impact. Pursuing a <span style={{ color: '#faf7f2' }}>BS Honours Specialization in Computer Science</span> at Western University.
                 </p>
               </AnimatedText>
 
@@ -516,17 +528,17 @@ function App() {
             <div>
               <AnimatedText delay={100}>
                 <p className="text-lg mb-6 leading-relaxed" style={{ color: '#9a9a9a' }}>
-                  I'm a third-year CS student who gets excited about both the <span style={{ color: '#faf7f2' }}>"how"</span> and the <span style={{ color: '#faf7f2' }}>"why"</span> of technology. Give me a technical problem and I'll architect a solution. Give me a user problem and I'll build the product that solves it.
+                  Hi! I'm a third-year CS student at Western University. I'm a very creative person and I love working with people, that combo is what got me into building software in the first place, since the best products come from understanding people, not just writing good code.
                 </p>
               </AnimatedText>
               <AnimatedText delay={200}>
                 <p className="text-lg mb-6 leading-relaxed" style={{ color: '#9a9a9a' }}>
-                  What drives me? The moment when elegant code meets real impact. When a well-designed system actually changes how people work, learn, or connect.
+                  I like to think about both sides of a project, the technical part where I get to actually build and architect things, and the human part where I'm thinking about who's using it and why it matters to them. To me that's the fun part of CS, it's never just about the code, it's about what the code does for someone.
                 </p>
               </AnimatedText>
               <AnimatedText delay={300}>
                 <p className="text-lg leading-relaxed" style={{ color: '#9a9a9a' }}>
-                  Currently leading mentorship programs, exploring AI applications in healthcare, and always looking for the next challenging problem to solve.
+                  Lately I've been really drawn to AI and machine learning, especially how it can be applied in healthcare, there's something exciting about tech that can actually improve people's lives in a tangible way.
                 </p>
               </AnimatedText>
             </div>
@@ -646,7 +658,7 @@ function App() {
               Like what you see?
             </h2>
             <p className="text-xl mb-8" style={{ color: '#6a6a6a' }}>
-              I'm currently seeking internships for the 2026 co-op year.
+              I'm currently seeking internships for Fall 2026 and Winter 2027.
             </p>
           </AnimatedText>
 
